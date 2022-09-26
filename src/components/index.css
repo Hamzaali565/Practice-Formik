@@ -1,0 +1,75 @@
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 0px;
+font-size: 40px;
+}
+.formContainer{
+    /* display: flex; */
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 600px;
+margin-top: 30px;
+}
+
+.firstName{
+    display: flex;
+    justify-content: center;
+}
+.label{
+    /* border: 1px solid black; */
+    width: 130px;
+ padding: 17px;
+ font-size: 20px;   
+}
+.input{
+    /* border: 1px solid black; */
+    width: 400px;
+    /* padding: 20px; */
+}
+.input>input{
+    width: 250px;
+    padding: 20px;
+    border: 3px solid gray;
+border-radius: 20px;
+}
+.err{
+    /* border: 1px solid black;     */
+color: red;
+margin-left: 180px;
+    height: 20px;
+/* width: 50px; */
+}
+.radio{
+display: flex;
+/* justify-content: center; */
+}
+.rad{
+    border: 3px solid gray;
+    border-radius: 20px;
+    width: 250px;
+ padding: 20px;
+margin-top: 0px;
+margin-left: 70px;
+}
+.allInputs{
+    display: flex;
+    justify-content: center;
+border: 4px solid black;    
+border-radius: 40px;
+box-shadow: 5px 10px 8px 10px black;
+width: 600px;
+height: 600px;
+}
+.main-o-main{
+    display: flex;
+justify-content: center;
+}
+.button{
+    margin-top: 30px;
+}
+button{
+padding: 10px 15px 10px 15px;
+background-color: black;
+color: white;
+border-radius: 20px;
+}
